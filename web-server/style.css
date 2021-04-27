@@ -1,0 +1,84 @@
+#map {
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    right: 100%;
+}
+
+body {
+    height: 100%;
+    position: absolute;
+    width: 25%;
+    left: 75%;
+    margin: 0;
+    padding: 0;
+    background-color: #184a45ff;
+}
+.active {background-color: #008CBA;}
+
+h2,input,.btn,p,td,button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+h2,p,td{
+    color: white;
+    cursor: default;
+}
+
+input,button{
+    background-color: #fc766Aff;
+    border: 0.5px solid #888787;
+    color: #184a45ff;
+    min-width: 150px;
+    min-height: 20px;
+    width: 75%;
+    margin: 10px auto;
+    margin-top: 30px;
+}
+
+.btn{
+    background-color: #fc766Aff;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #184a45ff;
+    min-width: 215px;
+    min-height: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.button{
+    background-color: #fc766Aff;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #184a45ff;
+    min-width: 215px;
+    min-height: 30px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn:hover,input:hover,button:hover{
+    background-color: #ff8a80;
+    color: white;
+}
+
+::placeholder {
+    color: #184a45ff;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #184a45ff;
+}
+
+::-ms-input-placeholder {
+    color: #184a45ff;
+}

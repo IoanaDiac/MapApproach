@@ -1,0 +1,19 @@
+{
+  "name": "atm_maps_api_project",
+  "version": "1.0.0",
+  "description": "SIMPLE ARRIVAL MANAGER",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "tsc -w",
+    "serve": "python -m http.server 8080"
+  },
+  "author": "Vlad Borza, Ana-Madalina Dascalu, Evelyn Rojano, Adriana Loghin, Mihai Nechita",
+  "devDependencies": {
+    "@types/google-maps": "^3.2.2",
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "d3-geo": "^2.0.1"
+  }
+}

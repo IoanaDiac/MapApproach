@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MAPs API</title>
+    <link rel = "stylesheet" type = "text/css" href = "./style.css" />
+    <script src = "https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type = "module" src = "./compiled/index.js"></script>
+
+</head>
+<body>
+<div id="map"></div>
+    <input id = "choice" type = "text" name = "YourChoice" placeholder="Choose your Route" value = ""/>
+    <form>
+        <h2>STAR CHOICE</h2>
+        <input id = "wind" type="number" name = "Wind Direction" placeholder="Input wind direction" value=""/>
+        <input id = "airport" type = "text" name = "Airport" placeholder = "Choose your Airport" value = "" />
+        <input type="submit" id = "submit" value="Show my route">
+    </form>
+    <button type="button" class = "active" id = "active" >Show Active STARs</button>
+
+    <script src=https://maps.googleapis.com/maps/api/js?key=AIzaSyD30g_Sm9xXquCMHDAGr5fOlAfu3VSRgbM&libraries=geometry,drawing&v=weekly></script>
+</body>
+</html>
